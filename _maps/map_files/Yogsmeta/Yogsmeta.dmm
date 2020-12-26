@@ -30164,24 +30164,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
-"bgJ" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 8;
-	name = "Air to Distro"
-	},
-/obj/machinery/airalarm{
-	pixel_y = 24
-	},
-/obj/machinery/camera{
-	c_tag = "Atmospherics - Distro Loop"
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark/corner{
-	dir = 1
-	},
-/area/engine/atmos)
 "bgK" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -44154,21 +44136,6 @@
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
-"bHt" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "Air to External Air Ports"
-	},
-/turf/open/floor/plasteel/dark/corner{
-	dir = 1
-	},
-/area/engine/atmos)
 "bHu" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -45744,12 +45711,6 @@
 /area/engine/atmos)
 "bKH" = (
 /obj/machinery/air_sensor/atmos/nitrous_tank,
-/turf/open/floor/engine/n2o,
-/area/engine/atmos)
-"bKI" = (
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide{
-	valve_open = 1
-	},
 /turf/open/floor/engine/n2o,
 /area/engine/atmos)
 "bKJ" = (
@@ -48640,10 +48601,6 @@
 /obj/machinery/air_sensor/atmos/toxin_tank,
 /turf/open/floor/engine/plasma,
 /area/engine/atmos)
-"bQY" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
-/turf/open/floor/engine/plasma,
-/area/engine/atmos)
 "bQZ" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -51045,10 +51002,6 @@
 /area/engine/atmos)
 "bVN" = (
 /obj/machinery/air_sensor/atmos/carbon_tank,
-/turf/open/floor/engine/co2,
-/area/engine/atmos)
-"bVO" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/engine/atmos)
 "bVP" = (
@@ -53779,27 +53732,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
-"cbf" = (
-/obj/structure/window/reinforced,
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "Nitrogen Outlet"
-	},
-/obj/machinery/atmospherics/pipe/simple/green/visible{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
 "cbg" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -53837,27 +53769,6 @@
 /obj/structure/window/reinforced,
 /obj/machinery/computer/atmos_control/tank/oxygen_tank{
 	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/green/visible{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/engine/atmos)
-"cbj" = (
-/obj/structure/window/reinforced,
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "O2 to Airmix"
 	},
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -58171,10 +58082,6 @@
 "cjc" = (
 /turf/open/floor/engine/n2,
 /area/engine/atmos)
-"cjd" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/open/floor/engine/n2,
-/area/engine/atmos)
 "cje" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics Tank - N2";
@@ -58183,10 +58090,6 @@
 /turf/open/floor/engine/n2,
 /area/engine/atmos)
 "cjf" = (
-/turf/open/floor/engine/o2,
-/area/engine/atmos)
-"cjg" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine/o2,
 /area/engine/atmos)
 "cjh" = (
@@ -75089,6 +74992,28 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/port/fore)
+"dZZ" = (
+/obj/structure/window/reinforced,
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "Nitrogen Outlet";
+	target_pressure = 4500
+	},
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "ean" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating{
@@ -76925,6 +76850,25 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"igt" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 8;
+	name = "Air to Distro";
+	target_pressure = 4500
+	},
+/obj/machinery/airalarm{
+	pixel_y = 24
+	},
+/obj/machinery/camera{
+	c_tag = "Atmospherics - Distro Loop"
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/engine/atmos)
 "ihV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -77216,6 +77160,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"iOV" = (
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/atmospherics/miner/carbon_dioxide,
+/turf/open/floor/engine/co2,
+/area/engine/atmos)
 "iPn" = (
 /obj/structure/chair{
 	dir = 4
@@ -78017,6 +77966,28 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"kJH" = (
+/obj/structure/window/reinforced,
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "O2 to Airmix";
+	target_pressure = 4500
+	},
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "kKf" = (
 /obj/structure/window/reinforced,
 /obj/structure/lattice,
@@ -79504,6 +79475,13 @@
 "oSR" = (
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/cryopods)
+"oTo" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide{
+	valve_open = 1
+	},
+/obj/machinery/atmospherics/miner/n2o,
+/turf/open/floor/engine/n2o,
+/area/engine/atmos)
 "oTR" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -79615,6 +79593,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
+"phK" = (
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/atmospherics/miner/toxins,
+/turf/open/floor/engine/plasma,
+/area/engine/atmos)
 "pkA" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -80142,6 +80125,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"qFU" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/n2,
+/area/engine/atmos)
 "qHZ" = (
 /obj/item/radio/intercom{
 	pixel_y = -28
@@ -82608,6 +82596,11 @@
 	icon_state = "platingdmg3"
 	},
 /area/maintenance/solars/starboard/aft)
+"woo" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/miner/oxygen,
+/turf/open/floor/engine/o2,
+/area/engine/atmos)
 "wrD" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -83357,6 +83350,22 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/engine/cult,
 /area/library)
+"ydg" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "Air to External Air Ports";
+	target_pressure = 4500
+	},
+/turf/open/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/engine/atmos)
 "yfM" = (
 /obj/machinery/vending/engivend,
 /obj/effect/turf_decal/delivery,
@@ -124888,7 +124897,7 @@ bjA
 bet
 bCh
 bFL
-bHt
+ydg
 bIO
 bKv
 bMb
@@ -124908,7 +124917,7 @@ bGF
 aaf
 bIl
 chO
-cjd
+qFU
 ckG
 bAR
 aaf
@@ -125159,7 +125168,7 @@ cex
 cey
 ebD
 bMg
-cbf
+dZZ
 ccP
 czN
 cfv
@@ -125936,7 +125945,7 @@ bGF
 aaf
 bIl
 chR
-cjg
+woo
 ckH
 bAR
 aaf
@@ -126187,7 +126196,7 @@ bFQ
 bXm
 myZ
 bZJ
-cbj
+kJH
 ccP
 czN
 cfw
@@ -127196,7 +127205,7 @@ aNC
 aTq
 iYE
 bxc
-bgJ
+igt
 bhF
 bCv
 bEa
@@ -129002,15 +129011,15 @@ bCC
 bCC
 bAR
 bJd
-bKI
+oTo
 bJd
 bAR
 bPy
-bQY
+phK
 bPy
 bAR
 bUJ
-bVO
+iOV
 bUJ
 bAR
 aaf
